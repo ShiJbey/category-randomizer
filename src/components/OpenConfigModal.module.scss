@@ -1,0 +1,28 @@
+.no_config_text {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: large;
+	opacity: 0.5;
+	text-align: center;
+}
+
+.entry_row {
+	font-size: large;
+	border-bottom: solid grey 1px;
+	padding: 0.5rem;
+	display: grid;
+	grid-template-columns: auto min-content;
+
+	&:last-of-type {
+		border-bottom: none;
+	}
+
+	&:hover {
+		background-color: rgba(192, 192, 192, 0.481);
+		cursor: pointer;
+	}
+}
+
+.modal_body {
+	padding: 0;
+}

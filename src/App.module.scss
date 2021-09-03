@@ -1,0 +1,59 @@
+.app {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-rows: min-content auto;
+}
+
+.categories {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 16px;
+	padding: 0 16px 8px 16px;
+	overflow-y: hidden;
+	overflow-x: auto;
+	justify-content: left;
+}
+
+.randomize_all_btn {
+	width: 100%;
+	max-width: 500px;
+
+	.btn_label {
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+
+.randomize_btn {
+	width: 100%;
+}
+
+.add_vategory_btn {
+	margin-right: 300px;
+}
+
+.selection {
+	font-weight: bold;
+	font-size: large;
+	margin-bottom: 6px;
+	border: solid rgb(119, 122, 122) 1px;
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	min-height: 2rem;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.toolbar {
+	padding: 16px;
+	height: 100%;
+}
+
+.category_column {
+	height: 100%;
+	display: grid;
+	width: min-content;
+	grid-template-rows: min-content min-content auto;
+}

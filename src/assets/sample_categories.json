@@ -1,0 +1,105 @@
+{
+  "format": "0.0.1",
+  "name": "Sample Categories",
+  "categories": [
+    {
+      "name": "Animals",
+      "options": [
+        {
+          "text": "Dogs",
+          "selected": true
+        },
+        {
+          "text": "Cats",
+          "selected": true
+        },
+        {
+          "text": "Aardvarks",
+          "selected": true
+        },
+        {
+          "text": "Whales",
+          "selected": true
+        },
+        {
+          "text": "Seals",
+          "selected": true
+        },
+        {
+          "text": "Dogs",
+          "selected": true
+        },
+        {
+          "text": "Hawks",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "name": "Verbs",
+      "options": [
+        {
+          "text": "eat",
+          "selected": true
+        },
+        {
+          "text": "drink",
+          "selected": true
+        },
+        {
+          "text": "grow",
+          "selected": true
+        },
+        {
+          "text": "Dogs",
+          "selected": true
+        },
+        {
+          "text": "like",
+          "selected": true
+        },
+        {
+          "text": "dislike",
+          "selected": true
+        },
+        {
+          "text": "wear",
+          "selected": true
+        }
+      ]
+    },
+    {
+      "name": "Random Objects",
+      "options": [
+        {
+          "text": "shoes",
+          "selected": true
+        },
+        {
+          "text": "flowers",
+          "selected": true
+        },
+        {
+          "text": "rocks",
+          "selected": true
+        },
+        {
+          "text": "computers",
+          "selected": true
+        },
+        {
+          "text": "water",
+          "selected": true
+        },
+        {
+          "text": "cheese",
+          "selected": true
+        },
+        {
+          "text": "scary movies",
+          "selected": true
+        }
+      ]
+    }
+  ]
+}
